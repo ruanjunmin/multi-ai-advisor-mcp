@@ -163,6 +163,10 @@ If the tools don't appear in Claude:
 - Check the absolute path in claude_desktop_config.json is correct
 - Look at Claude's logs for error messages
 
+### RAM is not enough
+
+Some managers' AI models may have chosen larger models, but there is not enough memory to run them. You can try specifying a smaller model (see the [Basic Usage](#basic-usage)) or upgrading the memory.
+
 ## License
 
 [MIT License](LICENSE)
