@@ -1,9 +1,20 @@
 # Multi-Model Advisor
-## (锵锵三人行)
+## (锵锵四人行)
 
 [![smithery badge](https://smithery.ai/badge/@YuChenSSR/multi-ai-advisor-mcp)](https://smithery.ai/server/@YuChenSSR/multi-ai-advisor-mcp)
 
 A Model Context Protocol (MCP) server that queries multiple Ollama models and combines their responses, providing diverse AI perspectives on a single question. This creates a "council of advisors" approach where Claude can synthesize multiple viewpoints alongside its own to provide more comprehensive answers.
+
+```mermaid
+graph TD
+    A[Start] --> B[Local AI 1 Opinion]
+    A --> C[Local AI 2 Opinion]
+    A --> D[Local AI 3 Opinion]
+    B --> E[Manager AI]
+    C --> E
+    D --> E
+    E --> F[Decision Made]
+```
 
 ## Features
 
