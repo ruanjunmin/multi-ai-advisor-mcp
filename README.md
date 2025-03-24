@@ -169,7 +169,7 @@ Some managers' AI models may have chosen larger models, but there is not enough 
 
 ## License
 
-[MIT License](LICENSE)
+MIT License
 
 For more details, please see the LICENSE file in [this project repository](https://github.com/YuChenSSR/multi-ai-advisor-mcp)
 
