@@ -7,9 +7,9 @@ A Model Context Protocol (MCP) server that queries multiple Ollama models and co
 
 ```mermaid
 graph TD
-    A[Start] --> B[Local AI 1 Opinion]
-    A --> C[Local AI 2 Opinion]
-    A --> D[Local AI 3 Opinion]
+    A[Start] --> B[Worker Local AI 1 Opinion]
+    A --> C[Worker Local AI 2 Opinion]
+    A --> D[Worker Local AI 3 Opinion]
     B --> E[Manager AI]
     C --> E
     D --> E
