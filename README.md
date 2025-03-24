@@ -1,5 +1,7 @@
 # Multi-Model Advisor
 
+[![smithery badge](https://smithery.ai/badge/@YuChenSSR/multi-ai-advisor-mcp)](https://smithery.ai/server/@YuChenSSR/multi-ai-advisor-mcp)
+
 A Model Context Protocol (MCP) server that queries multiple Ollama models and combines their responses, providing diverse AI perspectives on a single question. This creates a "council of advisors" approach where Claude can synthesize multiple viewpoints alongside its own to provide more comprehensive answers.
 
 ## Features
@@ -19,6 +21,15 @@ A Model Context Protocol (MCP) server that queries multiple Ollama models and co
 
 ## Installation
 
+### Installing via Smithery
+
+To install multi-ai-advisor-mcp for Claude Desktop automatically via [Smithery](https://smithery.ai/server/@YuChenSSR/multi-ai-advisor-mcp):
+
+```bash
+npx -y @smithery/cli install @YuChenSSR/multi-ai-advisor-mcp --client claude
+```
+
+### Manual Installation
 1. Clone this repository:
    ```bash
    git clone https://github.com/yourusername/multi-model-advisor.git
