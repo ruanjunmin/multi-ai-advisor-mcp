@@ -1,4 +1,5 @@
 # Multi-Model Advisor
+## (锵锵三人行)
 
 [![smithery badge](https://smithery.ai/badge/@YuChenSSR/multi-ai-advisor-mcp)](https://smithery.ai/server/@YuChenSSR/multi-ai-advisor-mcp)
 
