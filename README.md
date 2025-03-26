@@ -81,7 +81,7 @@ DEBUG=true
 
 # Ollama configuration
 OLLAMA_API_URL=http://localhost:11434
-DEFAULT_MODELS=gemma3:1b,llama3.2:1b,deepseek-r1:1b
+DEFAULT_MODELS=gemma3:1b,llama3.2:1b,deepseek-r1:1.5b
 
 # System prompts for each model
 GEMMA_SYSTEM_PROMPT=You are a supportive and empathetic AI assistant focused on human well-being. Provide considerate and balanced advice.
