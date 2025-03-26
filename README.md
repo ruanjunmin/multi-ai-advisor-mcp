@@ -5,6 +5,10 @@
 
 A Model Context Protocol (MCP) server that queries multiple Ollama models and combines their responses, providing diverse AI perspectives on a single question. This creates a "council of advisors" approach where Claude can synthesize multiple viewpoints alongside its own to provide more comprehensive answers.
 
+<a href="https://glama.ai/mcp/servers/@YuChenSSR/multi-ai-advisor-mcp">
+  <img width="380" height="200" src="https://glama.ai/mcp/servers/@YuChenSSR/multi-ai-advisor-mcp/badge" alt="Multi-Model Advisor MCP server" />
+</a>
+
 ```mermaid
 graph TD
     A[Start] --> B[Worker Local AI 1 Opinion]
@@ -77,7 +81,7 @@ DEBUG=true
 
 # Ollama configuration
 OLLAMA_API_URL=http://localhost:11434
-DEFAULT_MODELS=gemma3:1b,llama3.2:1b,deepseek-r1:1.5b
+DEFAULT_MODELS=gemma3:1b,llama3.2:1b,deepseek-r1:1b
 
 # System prompts for each model
 GEMMA_SYSTEM_PROMPT=You are a supportive and empathetic AI assistant focused on human well-being. Provide considerate and balanced advice.
