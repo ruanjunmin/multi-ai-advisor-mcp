@@ -5,6 +5,10 @@
 
 A Model Context Protocol (MCP) server that queries multiple Ollama models and combines their responses, providing diverse AI perspectives on a single question. This creates a "council of advisors" approach where Claude can synthesize multiple viewpoints alongside its own to provide more comprehensive answers.
 
+<a href="https://glama.ai/mcp/servers/@YuChenSSR/multi-ai-advisor-mcp">
+  <img width="380" height="200" src="https://glama.ai/mcp/servers/@YuChenSSR/multi-ai-advisor-mcp/badge" alt="Multi-Model Advisor MCP server" />
+</a>
+
 ```mermaid
 graph TD
     A[Start] --> B[Worker Local AI 1 Opinion]
