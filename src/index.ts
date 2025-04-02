@@ -50,9 +50,9 @@ interface SystemPrompts {
 const DEFAULT_SYSTEM_PROMPTS: SystemPrompts = {
   "gemma3:1b": process.env.GEMMA_SYSTEM_PROMPT || 
     "You are a creative and innovative AI assistant. Think outside the box and offer novel perspectives.",
-  "llama3.2:1b": process.env.LLAMA_SYSTEM_PROMPT || 
+  "qwen2.5:1.5b-8k": process.env.QWEN_SYSTEM_PROMPT || 
     "You are a supportive and empathetic AI assistant focused on human well-being. Provide considerate and balanced advice.",
-  "deepseek-r1:1.5b": process.env.DEEPSEEK_SYSTEM_PROMPT || 
+  "deepseek-r1:1.5b-8k": process.env.DEEPSEEK_SYSTEM_PROMPT || 
     "You are a logical and analytical AI assistant. Think step-by-step and explain your reasoning clearly."
 };
 
